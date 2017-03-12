@@ -14,7 +14,6 @@ If you tried improving a block of your code and it doesn't work out as hoped, yo
 
 #####################################
 
-
 Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
 
 A: Pros: it gives you flexibility, allows you to choose logical stages to commit, makes it easier for other users to easily follow your code progression
@@ -34,9 +33,6 @@ Q: How can you use the commands git log and git diff to view the history of file
 A: When you are in the git repository and use git log it returns the entire history of commits with the ID, date of commit and description. 
 git diff would give you the exact differences when you compare two different commited versions. 
 Using both of these you can review the progression of your code and easily view the changes made.
-
-
-
 
 #####################################
 
