@@ -1,21 +1,45 @@
-What happens when you initialize a repository? Why do you need to do it?
-A git repository is created in which you can now commit versions. You need it to maintain version control. 
+GITHUB LESSON 1 REFLECTIONS
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
-Repository is a physical section present in the working directory in which we will save commits. Staging area step before making a commit, make sure we are commiting exactly what we want and then giving us a chance to add a commit message
+Q: What happens when you initialize a repository? Why do you need to do it?
 
-How can you use the staging area to make sure you have one commit per logical change?
-Git diff --staged would compare whats in the staging area to whats in the latest commit, this way you can see exactly what you are changing. 
+A: A git repository is created in which you can now commit versions. You need it to maintain version control. 
 
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+#####################################
 
-If you want to try out a new feature and not sure if it'll work out, you can do so without breaking the working version you've created till date, branch it out. 
-You can also you it to create different versions of the same project with variations, and have different branches for all of them.
-FOr example - different language, difficulty levels of a game, free and pro versions.
-production value vs experimental/development
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-How do the diagrams help you visualize the branch structure?
-its like a tree diagram and has nodes, so a diagram makes is much easier to visualize and understand whats going on. 
+A: Repository is a defined section present in the working directory in which we will save commits and it will maintain the entire commit history. Staging area is a step before making a commit, to make sure we are commiting exactly what we want and then giving us a chance to add a commit message. 
 
-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-the code in one branch merges with the other. If two different features/bugs are being worked on separately, they can be merged for 1 project. We represent it the way we do because its a new commit which contains al lthe code from both the branches. 
+#####################################
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: Git diff --staged would compare whats in the staging area to whats in the latest commit, this way you can see exactly what you are changing. If its more of less than what you think would be considered as a logical commit, you can abort it and try commiting again after making the changes.
+
+#####################################
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: If you want to try out a new feature and not sure if it'll work out, you can do so without breaking the working version you've created till date by branching out. 
+You can also use it to create different versions of the same project with variations, and have different branches for all of them.
+For example - different language, difficulty levels of a game, free and pro versions, experimental/development branches.
+
+#####################################
+
+Q: How do the diagrams help you visualize the branch structure?
+
+A: It is like a tree diagram and has nodes to show commits and can also depict exactly where branches begin. So a diagram makes is much easier to visualize and understand whats going on. 
+
+#####################################
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: The code in one branch merges with the other. If two different features/bugs are being worked on separately, they can be merged for 1 project. We represent it the way we do because its a new commit which contains all the code from both the branches. 
+
+#####################################
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A: Pros: saves a lot of time and can avoid user error since it only does automatic merge if there are no conflicts. If user tries to manually merge by say copy-paste, it introduces unnecessary risks especially since there were no conflicts to begin with. If there is a conflict, it exactly points it out, which would take much longer to find manually. 
+Cons: can't handle conflicts, this is when manual merging comes into the picture. It may sometimes merge items that you may not be aware of and it would not point them out if there way no conflict. 
+
