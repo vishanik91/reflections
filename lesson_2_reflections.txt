@@ -2,4 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 A git repository is created in which you can now commit versions. You need it to maintain version control. 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-Repository is a physical section present in the working directory in which we will save commits. Staging area step before making a commit, make sure we are commiting exactly what we want. 
+Repository is a physical section present in the working directory in which we will save commits. Staging area step before making a commit, make sure we are commiting exactly what we want and then giving us a chance to add a commit message
+
+How can you use the staging area to make sure you have one commit per logical change?
+Git diff --staged would compare whats in the staging area to whats in the latest commit, this way you can see exactly what you are changing. 
