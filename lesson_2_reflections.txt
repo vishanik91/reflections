@@ -6,3 +6,16 @@ Repository is a physical section present in the working directory in which we wi
 
 How can you use the staging area to make sure you have one commit per logical change?
 Git diff --staged would compare whats in the staging area to whats in the latest commit, this way you can see exactly what you are changing. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If you want to try out a new feature and not sure if it'll work out, you can do so without breaking the working version you've created till date, branch it out. 
+You can also you it to create different versions of the same project with variations, and have different branches for all of them.
+FOr example - different language, difficulty levels of a game, free and pro versions.
+production value vs experimental/development
+
+How do the diagrams help you visualize the branch structure?
+its like a tree diagram and has nodes, so a diagram makes is much easier to visualize and understand whats going on. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+the code in one branch merges with the other. If two different features/bugs are being worked on separately, they can be merged for 1 project. We represent it the way we do because its a new commit which contains al lthe code from both the branches. 
