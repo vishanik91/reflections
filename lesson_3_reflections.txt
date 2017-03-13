@@ -7,16 +7,19 @@ A: When you are collaborating so the team members can make their commits to the 
 
 #####################################
 
-Why might you want to always pull changes manually rather than having Git
+Q: Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+A: You'd want it to be manual so you are aware of what you are pulling into your local repository. And also it might impact what you are wokring on on your local repository. 
 
+#####################################
 
-Describe the differences between forks, clones, and branches.  When would you
+Q: Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+A:Forks are repository clones made from GitHub onto GitHub. You can fork a repository of another person and then clone it to you local to work on. This is helpful when you don't have access to the user's repository on GitHub.  Clones can be made of a local repository at another location on your system or clone a GitHub repository onto your local. Branch refers to only 1 repository. 
+
+#####################################
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
